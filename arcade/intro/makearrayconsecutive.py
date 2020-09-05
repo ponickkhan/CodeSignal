@@ -10,7 +10,7 @@ def makeArrayConsecutive2(statues):
 
     need = max - min + 1 - len(statues)
 
-    return need;
+    return need
 
 
 
