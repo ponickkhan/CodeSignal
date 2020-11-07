@@ -1,0 +1,166 @@
+Test 1
+Input:
+
+s1: "dce"
+s2: "cccbd"
+
+Output:
+
+null
+
+Expected Output:
+
+"dcecccbd"
+
+Console Output:
+
+d - c | e - c |
+
+Input:
+
+s1: "super"
+s2: "tower"
+
+Output:
+
+null
+
+Expected Output:
+
+"stouperwer"
+
+Console Output:
+
+u - o |
+
+Input:
+
+s1: "a"
+s2: "z"
+
+Output:
+
+null
+
+Expected Output:
+
+"az"
+
+Console Output:
+
+Empty
+
+Input:
+
+s1: "uchlmfelno"
+s2: "gr"
+
+Output:
+
+null
+
+Expected Output:
+
+"gruchlmfelno"
+
+Console Output:
+
+u - g | h -  | l -  | m -  | f -  | e -  | l -  | n -  | o -  |
+
+Input:
+
+s1: "kkihj"
+s2: "jbsmfoftph"
+
+Output:
+
+null
+
+Expected Output:
+
+"jbsmfoftphkkihj"
+
+Console Output:
+
+k - j | k - b | j - f |
+
+Input:
+
+s1: "enbvszyppzyiydnc"
+s2: "ousswsbeljamma"
+
+Output:
+
+null
+
+Expected Output:
+
+"eounbvszsswsbeljammayppzyiydnc"
+
+Console Output:
+
+v - s | z - s | y - b | p - e | p - l | z - j | y - a | y - m | d - a | n -  | c -  |
+
+Input:
+
+s1: "vbpvxohmfudekrniglpym"
+s2: "wyzjgnituhfhyxkfpnccqjhrvf"
+
+Output:
+
+null
+
+Expected Output:
+
+"wvbpvxohmfudekrniglpymyzjgnituhfhyxkfpnccqjhrvf"
+
+Console Output:
+
+v - j | x - g | o - n | u - h | n - k | i - f | p - c | y - c |
+
+Input:
+
+s1: "fpniswlxslcjgaau"
+s2: "txwqqryebhjrjwkgx"
+
+Output:
+
+null
+
+Expected Output:
+
+"fpnitswlxslcjgaauxwqqryebhjrjwkgx"
+
+Input:
+
+s1: "z"
+s2: "a"
+
+Output:
+
+null
+
+Expected Output:
+
+"az"
+
+Console Output:
+
+z - a |
+
+Input:
+
+s1: "ougtaleegvrabhugzyx"
+s2: "wvieaqgaegbxg"
+
+Output:
+
+null
+
+Expected Output:
+
+"owvieaqugtaleegvrabhugzyxgaegbxg"
+
+Console Output:
+
+t - e | e - a | g - e | v - g | r - b | h -  | u -  | g -  | z -  | y -  | x -  |

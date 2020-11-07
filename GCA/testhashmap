@@ -1,0 +1,439 @@
+Test 1
+Input:
+
+queryType:
+["insert",
+ "insert",
+ "addToValue",
+ "addToKey",
+ "get"]
+query:
+[[1,2],
+ [2,3],
+ [2],
+ [1],
+ [3]]
+
+Expected Output:
+
+5
+
+Click the "Run Tests" button to see output and console logs.
+
+
+Test 2
+Input:
+
+queryType:
+["insert",
+ "addToValue",
+ "get",
+ "insert",
+ "addToKey",
+ "addToValue",
+ "get"]
+query:
+[[1,2],
+ [2],
+ [1],
+ [2,3],
+ [1],
+ [-1],
+ [3]]
+
+Expected Output:
+
+6
+
+Click the "Run Tests" button to see output and console logs.
+
+Test 3
+Input:
+
+queryType:
+["addToKey",
+ "addToKey",
+ "insert",
+ "addToValue",
+ "addToValue",
+ "get",
+ "addToKey",
+ "insert",
+ "addToKey",
+ "addToValue"]
+query:
+[[-3],
+ [-1],
+ [0,-3],
+ [3],
+ [-1],
+ [0],
+ [-1],
+ [-4,-5],
+ [-1],
+ [-4]]
+
+Expected Output:
+
+-1
+
+Click the "Run Tests" button to see output and console logs.
+
+Test 4
+Input:
+
+queryType:
+["insert",
+ "insert",
+ "addToKey",
+ "addToKey",
+ "addToKey",
+ "insert",
+ "addToValue",
+ "addToKey",
+ "addToKey",
+ "get"]
+query:
+[[-5,-2],
+ [2,4],
+ [-1],
+ [-3],
+ [1],
+ [3,-2],
+ [-4],
+ [-2],
+ [2],
+ [-8]]
+
+Expected Output:
+
+-6
+
+
+
+
+queryType:
+["addToValue",
+ "addToValue",
+ "insert",
+ "get",
+ "addToKey",
+ "insert",
+ "insert",
+ "insert",
+ "addToValue",
+ "addToKey"]
+query:
+[[-5],
+ [3],
+ [3,-3],
+ [3],
+ [0],
+ [-4,2],
+ [0,-3],
+ [-2,4],
+ [2],
+ [2]]
+
+Expected Output:
+
+-3
+
+Click the "Run Tests" button to see output and console logs.
+
+
+Test 7
+Input:
+
+queryType:
+["addToKey",
+ "addToKey",
+ "insert",
+ "addToKey",
+ "addToValue",
+ "addToKey",
+ "addToValue",
+ "insert",
+ "get",
+ "insert"]
+query:
+[[-1],
+ [-3],
+ [4,3],
+ [2],
+ [2],
+ [-2],
+ [0],
+ [-5,3],
+ [-5],
+ [3,-4]]
+
+Expected Output:
+
+3
+
+Click the "Run Tests" button to see output and console logs.
+
+
+Test 8
+Input:
+
+queryType:
+["insert",
+ "insert",
+ "insert",
+ "get",
+ "insert",
+ "insert",
+ "insert",
+ "addToKey",
+ "insert",
+ "insert"]
+query:
+[[3,-4],
+ [-4,3],
+ [4,-3],
+ [4],
+ [-5,0],
+ [-2,-5],
+ [2,2],
+ [1],
+ [-5,-2],
+ [1,3]]
+
+Expected Output:
+
+-3
+
+Click the "Run Tests" button to see output and console logs.
+
+Test 9
+Input:
+
+queryType:
+["addToValue",
+ "addToKey",
+ "addToKey",
+ "insert",
+ "addToValue",
+ "addToValue",
+ "insert",
+ "get",
+ "get",
+ "insert"]
+query:
+[[-2],
+ [-3],
+ [0],
+ [-3,1],
+ [-2],
+ [-4],
+ [2,-4],
+ [2],
+ [2],
+ [3,-1]]
+
+Expected Output:
+
+-8
+
+Click the "Run Tests" button to see output and console logs.
+
+Test 10
+The test case is too large and is shown truncated
+Input:
+
+queryType:
+["addToKey",
+ "addToValue",
+ "insert",
+ "addToValue",
+ "addToKey",
+ "get",
+ "insert",
+ "addToValue",
+ "addToValue",
+ "get",
+ "insert",
+ "addToKey",
+ "get",
+ "addToKey",
+ "addToKey",
+ "addToValue",
+ "insert",
+ "addToValue",
+ "get",
+ "addToKey",
+ "addToKey",
+ "insert",
+ "addToValue",
+ "addToKey",
+ "addToValue",
+ "insert",
+ "get",
+ "addToKey",
+ "addToValue",
+ "get",
+ "get",
+ "get",
+ "addToValue",
+ "addToValue",
+ "get",
+ "get",
+ "insert",
+ "insert",
+ "addToKey",
+ "insert",
+ "addToValue",
+ "addToValue",
+ "addToKey",
+ "addToValue",
+ "addToValue",
+ "get",
+ "addToValue",
+ "addToKey",
+ "get",
+ "addToValue",
+ "insert",
+ "get",
+ "get",
+ "get",
+ "addToValue",
+ "addToValue",
+ "get",
+ "addToKey",
+ "get",
+ "addToKey",
+ "addToValue",
+ "get",
+ "get",
+ "addToKey",
+ "insert",
+ "addToKey",
+ "get",
+ "addToKey",
+ "addToValue",
+ "addToKey",
+ "insert",
+ "addToKey",
+ "addToValue",
+ "addToKey",
+ "addToValue",
+ "addToValue",
+ "get",
+ "get",
+ "addToKey",
+ "insert",
+ "get",
+ "get",
+ "addToKey",
+ "insert",
+ "addToKey",
+ "addToValue",
+ "addToKey",
+ "insert",
+ "addToValue",
+ "get",
+ "get",
+ "insert",
+ "get",
+ "get",
+ "addToValue",
+ "get",
+ "addToValue",
+ "insert",
+ "addToKey",
+ "addToValue"]
+query:
+[[32],
+ [-4],
+ [32,-42],
+ [19],
+ [-45],
+ [-13],
+ [29,-29],
+ [-50],
+ [40],
+ [-13],
+ [39,-11],
+ [-47],
+ [-60],
+ [16],
+ [-14],
+ [45],
+ [-34,17],
+ [-12],
+ [-6],
+ [2],
+ [-33],
+ [-33,-6],
+ [40],
+ [-14],
+ [30],
+ [-13,11],
+ [-61],
+ [-1],
+ [-40],
+ [-62],
+ [-52],
+ [-52],
+ [-18],
+ [-2],
+ [-104],
+ [-104],
+ [-27,-13],
+ [28,-17],
+ [-40],
+ [39,-1],
+ [-40],
+ [25],
+ [-39],
+ [46],
+ [27],
+ [-51],
+ [-33],
+ [11],
+ [-130],
+ [37],
+ [37,-20],
+ [-95],
+ [-95],
+ [11],
+ [37],
+ [-2],
+ [-40],
+ [-47],
+ [-167],
+ [13],
+ [-41],
+ [-164],
+ [-206],
+ [1],
+ [14,19],
+ [23],
+ [-92],
+ [39],
+ [25],
+ [-33],
+ [-5,-34],
+ [-45],
+ [23],
+ [2],
+ [-13],
+ [-12],
+ [-163],
+ [-142],
+ [-4],
+ [-34,-44],
+ [-91],
+ [-34],
+ [34],
+ [-49,-19],
+ [9],
+ [-24]]
+
+Expected Output:
+
+1069
+
+Click the "Run Tests" button to see output and console logs.
