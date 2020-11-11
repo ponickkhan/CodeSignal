@@ -16,11 +16,22 @@ function hashMap($queryType, $query) {
 
             foreach($hashMap as $key=>$value){
 
-                print $hashMap[0];
+
+
+
+                $hashMap[$key]=$value+$query[$i][0];
+
+
             }
 
         }elseif($queryType[$i]=="addToKey"){
             //addTokey
+            foreach($hashMap as $key=>$value){
+
+
+                $hashMap[$key+$query[$i][0]]=$value;
+                unset($hashMap[$key]);
+            }
 
         }elseif($queryType[$i]=="get"){
 
@@ -32,7 +43,6 @@ function hashMap($queryType, $query) {
 
     print_r($hashMap);
 
-return ("hello");
 
 }
 
@@ -42,10 +52,10 @@ $queryType = ["insert",
     "addToKey",
     "get"];
 $query=
-[[1,2],
-    [2,3],
-    [2],
-    [1],
-    [3]];
+    [[1,2],
+        [2,3],
+        [2],
+        [1],
+        [3]];
 
 echo hashMap($queryType,$query);
